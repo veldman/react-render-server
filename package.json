@@ -1,0 +1,32 @@
+{
+  "name": "render-server",
+  "version": "0.1.0",
+  "description": "React Render server used by Django to render JSX files server side.",
+  "main": "bin/render-server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "django"
+  ],
+  "author": "Kenneth Veldman <veldman@gw20e.com> (http://www.gw20e.com)",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-transform-react-jsx": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "babel-register": "^6.23.0",
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-render": "git+https://github.com/veldman/react-render.git",
+    "winston": "^2.3.1",
+    "yargs": "^6.6.0"
+  },
+  "devDependencies": {
+    "jest": "^19.0.2"
+  }
+}
