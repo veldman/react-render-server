@@ -7,7 +7,7 @@ React Render server used by Django to render JSX files server side. Works with R
 To get started with React Render server you can simply install it with npm:
 
 ```bash
-npm install --save enzyme
+npm install --save react-render-server
 ```
 
 ### Usage
