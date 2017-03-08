@@ -1,5 +1,9 @@
 # Changelog
 
+#### 0.1.2 (Tuesday, 7 March 2017)
+
+- Added Git URL, Debug URL and original react-render to package.
+
 #### 0.1.1 (Tuesday, 7 March 2017)
 
 - Updated readme (changed enzyme to this package);
