@@ -1,14 +1,15 @@
 {
-  "name": "render-server",
+  "name": "react-render-server",
   "version": "0.1.0",
-  "description": "React Render server used by Django to render JSX files server side.",
+  "description": "React Render server used by Django to render JSX files server side. Redux enabled.",
   "main": "bin/render-server.js",
   "scripts": {
     "test": "jest"
   },
   "keywords": [
     "react",
-    "django"
+    "django",
+    "redux"
   ],
   "author": "Kenneth Veldman <veldman@gw20e.com> (http://www.gw20e.com)",
   "license": "MIT",

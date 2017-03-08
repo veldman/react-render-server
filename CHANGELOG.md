@@ -5,3 +5,4 @@
 - Initial setup of the project;
 - Renders Redux stores and passes them to Python React;
 - Added Winston logging for server side logging.
+- Added Jest for testing.
