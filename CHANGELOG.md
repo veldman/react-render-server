@@ -1,5 +1,9 @@
 # Changelog
 
+#### 0.1.1 (Tuesday, 7 March 2017)
+
+- Updated readme (changed enzyme to this package);
+
 #### 0.1.0 (Tuesday, 7 March 2017)
 
 - Initial setup of the project;

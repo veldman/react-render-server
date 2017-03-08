@@ -1,6 +1,6 @@
 {
   "name": "react-render-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React Render server used by Django to render JSX files server side. Redux enabled.",
   "main": "bin/render-server.js",
   "scripts": {

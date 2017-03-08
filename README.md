@@ -2,6 +2,10 @@
 
 React Render server used by Django to render JSX files server side. Works with Redux.
 
+### Requirements
+
+
+
 ### Installation
 
 To get started with React Render server you can simply install it with npm:
