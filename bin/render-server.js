@@ -4,7 +4,8 @@
  */
 require('babel-register')({
   presets: ['es2015', 'stage-2', 'react'],
-  plugins: ['transform-react-jsx']
+  plugins: ['transform-react-jsx'],
+  ignore: /node_modules\/(?!react-render-server)/
 });
 
 /**
