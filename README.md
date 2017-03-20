@@ -1,10 +1,10 @@
-# React Render Server
+# React Render Server [![Build Status](https://travis-ci.org/veldman/react-render-server.svg?branch=master)](https://travis-ci.org/veldman/react-render-server) [![npm version](https://img.shields.io/npm/v/react-render-server.svg?style=flat)](https://www.npmjs.com/package/react-render-server)
 
 React Render server used by Django to render JSX files server side. Works with Redux.
 
 ### Requirements
 
-
+Current version of node is 7.5, but should be usable by node > 4.
 
 ### Installation
 
@@ -16,11 +16,43 @@ npm install --save react-render-server
 
 ### Usage
 
-Run the script in `bin` or start with `node render-server`.
+Run the script in `bin` or start with `node render-server` when globally installed.
 
 Pass a JSON encoded object to serializedProps on the body. If the props
 contain `storePath` it will try and import that path as the store.
 This requires components that you want to render to have the "store" prop.
+
+
+Send a JSON POST to `/render` on the selected port with the JSON body as followed
+
+```json
+{
+	"path": "/Your/Absolute/Path/To/The/Component/react.jsx",
+	"serializedProps": "{\"test\": \"Hello\"}"
+}
+```
+
+or with normal props:
+
+```json
+{
+	"path": "/Your/Absolute/Path/To/The/Component/react.jsx",
+	"props": {"test": "Hello"}
+}
+```
+
+
+#### Redux example:
+
+POST to `/render`
+
+
+```json
+{
+	"path": "/Users/veldman/projects/django-react/render-server/lib/__mock__/react.jsx",
+	"serializedProps": "{\"test\": \"Hello\", \"storePath\": \"/Path/To/Store/store.js\"}"
+}
+```
 
 #### Help
 
