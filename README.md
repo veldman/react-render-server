@@ -4,7 +4,7 @@ React Render server used by Django to render JSX files server side. Works with R
 
 ### Requirements
 
-Current version of node is 7.5, but should be usable by node > 4.
+Current version of node is 7.5, but should be usable by node >= 5.
 
 ### Installation
 

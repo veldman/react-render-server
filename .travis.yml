@@ -3,7 +3,5 @@ node_js:
   - "7"
   - "6"
   - "5"
-  - "4"
-  - "iojs"
 install:
   - "npm install"
