@@ -7,7 +7,7 @@
     "render-server": "./bin/render-server.js"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest && codecov"
   },
   "keywords": [
     "react",
@@ -39,6 +39,7 @@
     "url": "https://github.com/veldman/react-render-server.git"
   },
   "jest": {
+    "coverageDirectory": "./coverage/",
     "collectCoverage": true
   }
 }
