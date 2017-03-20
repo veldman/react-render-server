@@ -1,4 +1,4 @@
-# React Render Server [![Build Status](https://travis-ci.org/veldman/react-render-server.svg?branch=master)](https://travis-ci.org/veldman/react-render-server) [![npm version](https://img.shields.io/npm/v/react-render-server.svg?style=flat)](https://www.npmjs.com/package/react-render-server)
+# React Render Server [![Build Status](https://travis-ci.org/veldman/react-render-server.svg?branch=master)](https://travis-ci.org/veldman/react-render-server) [![npm version](https://img.shields.io/npm/v/react-render-server.svg?style=flat)](https://www.npmjs.com/package/react-render-server) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 React Render server used by Django to render JSX files server side. Works with Redux.
 
